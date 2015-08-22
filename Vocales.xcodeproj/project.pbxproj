@@ -1,0 +1,599 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		10F0520A15EEF6F20059435B /* airplane.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 10F0520915EEF6F20059435B /* airplane.jpeg */; };
+		10F546CD15D2B34700222DEA /* man.png in Resources */ = {isa = PBXBuildFile; fileRef = 10F546CA15D2B34700222DEA /* man.png */; };
+		10F546CE15D2B34700222DEA /* woman.png in Resources */ = {isa = PBXBuildFile; fileRef = 10F546CB15D2B34700222DEA /* woman.png */; };
+		10F546CF15D2B34700222DEA /* littlegirl.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 10F546CC15D2B34700222DEA /* littlegirl.jpeg */; };
+		10F546D715D2BD6D00222DEA /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10F546D615D2BD6D00222DEA /* AVFoundation.framework */; };
+		10F546DA15D2CDFA00222DEA /* AViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 10F546D915D2CDFA00222DEA /* AViewController.m */; };
+		10F546E715D33AAD00222DEA /* F.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 10F546E615D33AAD00222DEA /* F.m4a */; };
+		10F546E915D33FD000222DEA /* G.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 10F546E815D33FD000222DEA /* G.m4a */; };
+		10F546EB15D33FE300222DEA /* C.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 10F546EA15D33FE300222DEA /* C.m4a */; };
+		10FB70DF15D4079200B92F5F /* AirPlaneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 10FB70DE15D4079200B92F5F /* AirPlaneViewController.m */; };
+		10FB70E115D4113600B92F5F /* oyster.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 10FB70E015D4113600B92F5F /* oyster.jpeg */; };
+		10FB70E315D4123400B92F5F /* fishbackgound.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 10FB70E215D4123400B92F5F /* fishbackgound.jpeg */; };
+		10FB70E515D4147200B92F5F /* water.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 10FB70E415D4147200B92F5F /* water.jpeg */; };
+		10FB70E715D4159600B92F5F /* jungle.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 10FB70E615D4159600B92F5F /* jungle.jpeg */; };
+		10FB70E915D4162300B92F5F /* iguana.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 10FB70E815D4162300B92F5F /* iguana.jpeg */; };
+		10FB70EB15D417A800B92F5F /* iguana.png in Resources */ = {isa = PBXBuildFile; fileRef = 10FB70EA15D417A800B92F5F /* iguana.png */; };
+		10FB70ED15D4188B00B92F5F /* background.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 10FB70EC15D4188B00B92F5F /* background.jpeg */; };
+		10FB70EF15D4192700B92F5F /* clouds.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 10FB70EE15D4192700B92F5F /* clouds.jpeg */; };
+		10FB70F115D41ACC00B92F5F /* rainbow.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 10FB70F015D41ACC00B92F5F /* rainbow.jpeg */; };
+		10FB70F315D41B3000B92F5F /* forest.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 10FB70F215D41B3000B92F5F /* forest.jpeg */; };
+		10FB70F515D41BBD00B92F5F /* unicorn.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 10FB70F415D41BBD00B92F5F /* unicorn.jpeg */; };
+		10FB70F715D41BDE00B92F5F /* unicornio.png in Resources */ = {isa = PBXBuildFile; fileRef = 10FB70F615D41BDE00B92F5F /* unicornio.png */; };
+		10FB70F915D41E8400B92F5F /* field.png in Resources */ = {isa = PBXBuildFile; fileRef = 10FB70F815D41E8400B92F5F /* field.png */; };
+		10FB70FB15D41EDB00B92F5F /* elephant.png in Resources */ = {isa = PBXBuildFile; fileRef = 10FB70FA15D41EDB00B92F5F /* elephant.png */; };
+		10FB70FE15D4238F00B92F5F /* OViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 10FB70FD15D4238F00B92F5F /* OViewController.m */; };
+		10FB710115D4239F00B92F5F /* OysterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 10FB710015D4239F00B92F5F /* OysterViewController.m */; };
+		10FB710415D423B300B92F5F /* IViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 10FB710315D423B300B92F5F /* IViewController.m */; };
+		10FB710715D423C000B92F5F /* IguanaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 10FB710615D423C000B92F5F /* IguanaViewController.m */; };
+		10FB710A15D423CC00B92F5F /* EViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 10FB710915D423CC00B92F5F /* EViewController.m */; };
+		10FB710D15D423D900B92F5F /* ElephantViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 10FB710C15D423D900B92F5F /* ElephantViewController.m */; };
+		10FB711015D423EA00B92F5F /* UViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 10FB710F15D423EA00B92F5F /* UViewController.m */; };
+		10FB711315D423F500B92F5F /* UnicornViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 10FB711215D423F500B92F5F /* UnicornViewController.m */; };
+		10FB713415D4361200B92F5F /* aBabyVoice.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 10FB711515D4361200B92F5F /* aBabyVoice.mp3 */; };
+		10FB713515D4361200B92F5F /* aManVoice.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 10FB711615D4361200B92F5F /* aManVoice.mp3 */; };
+		10FB713615D4361200B92F5F /* avionbaby.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 10FB711715D4361200B92F5F /* avionbaby.mp3 */; };
+		10FB713715D4361200B92F5F /* avionman.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 10FB711815D4361200B92F5F /* avionman.mp3 */; };
+		10FB713815D4361200B92F5F /* avionwoman.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 10FB711915D4361200B92F5F /* avionwoman.mp3 */; };
+		10FB713915D4361200B92F5F /* aWomanVoice.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 10FB711A15D4361200B92F5F /* aWomanVoice.mp3 */; };
+		10FB713A15D4361200B92F5F /* eBabyVoice.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 10FB711B15D4361200B92F5F /* eBabyVoice.mp3 */; };
+		10FB713B15D4361200B92F5F /* elefantebaby.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 10FB711C15D4361200B92F5F /* elefantebaby.mp3 */; };
+		10FB713C15D4361200B92F5F /* elefanteman.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 10FB711D15D4361200B92F5F /* elefanteman.mp3 */; };
+		10FB713D15D4361200B92F5F /* elefantewoman.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 10FB711E15D4361200B92F5F /* elefantewoman.mp3 */; };
+		10FB713E15D4361200B92F5F /* eManVoice.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 10FB711F15D4361200B92F5F /* eManVoice.mp3 */; };
+		10FB713F15D4361200B92F5F /* eWomanVoice.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 10FB712015D4361200B92F5F /* eWomanVoice.mp3 */; };
+		10FB714015D4361200B92F5F /* iBabyVoice.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 10FB712115D4361200B92F5F /* iBabyVoice.mp3 */; };
+		10FB714115D4361200B92F5F /* iguanababy.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 10FB712215D4361200B92F5F /* iguanababy.mp3 */; };
+		10FB714215D4361200B92F5F /* iguanaman.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 10FB712315D4361200B92F5F /* iguanaman.mp3 */; };
+		10FB714315D4361200B92F5F /* iguanawoman.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 10FB712415D4361200B92F5F /* iguanawoman.mp3 */; };
+		10FB714415D4361200B92F5F /* iManVoice.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 10FB712515D4361200B92F5F /* iManVoice.mp3 */; };
+		10FB714515D4361200B92F5F /* iWomanVoice.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 10FB712615D4361200B92F5F /* iWomanVoice.mp3 */; };
+		10FB714615D4361200B92F5F /* oBabySound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 10FB712715D4361200B92F5F /* oBabySound.mp3 */; };
+		10FB714715D4361200B92F5F /* oManVoice.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 10FB712815D4361200B92F5F /* oManVoice.mp3 */; };
+		10FB714815D4361200B92F5F /* opening2.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 10FB712915D4361200B92F5F /* opening2.mp4 */; };
+		10FB714915D4361200B92F5F /* osobaby.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 10FB712A15D4361200B92F5F /* osobaby.mp3 */; };
+		10FB714A15D4361200B92F5F /* osoman.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 10FB712B15D4361200B92F5F /* osoman.mp3 */; };
+		10FB714B15D4361200B92F5F /* osowoman.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 10FB712C15D4361200B92F5F /* osowoman.mp3 */; };
+		10FB714C15D4361200B92F5F /* oWomanVoice.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 10FB712D15D4361200B92F5F /* oWomanVoice.mp3 */; };
+		10FB714D15D4361200B92F5F /* uBabyVoice.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 10FB712E15D4361200B92F5F /* uBabyVoice.mp3 */; };
+		10FB714E15D4361200B92F5F /* uManVoice.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 10FB712F15D4361200B92F5F /* uManVoice.mp3 */; };
+		10FB714F15D4361200B92F5F /* unicorniobaby.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 10FB713015D4361200B92F5F /* unicorniobaby.mp3 */; };
+		10FB715015D4361200B92F5F /* unicornioman.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 10FB713115D4361200B92F5F /* unicornioman.mp3 */; };
+		10FB715115D4361200B92F5F /* unicorniowoman.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 10FB713215D4361200B92F5F /* unicorniowoman.mp3 */; };
+		10FB715215D4361200B92F5F /* uWomanVoice.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 10FB713315D4361200B92F5F /* uWomanVoice.mp3 */; };
+		5E92025D15D2127400C78FFA /* Port. launch img.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E92025B15D2127400C78FFA /* Port. launch img.png */; };
+		5E92025E15D2127400C78FFA /* Vocal app icon 114.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E92025C15D2127400C78FFA /* Vocal app icon 114.png */; };
+		5E92026115D212C400C78FFA /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E92026015D212C400C78FFA /* Default@2x.png */; };
+		5E92026515D212EE00C78FFA /* Vocal app icon 114.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E92026415D212EE00C78FFA /* Vocal app icon 114.png */; };
+		E3CBE76115D1ECC400F2DB45 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3CBE76015D1ECC400F2DB45 /* UIKit.framework */; };
+		E3CBE76315D1ECC400F2DB45 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3CBE76215D1ECC400F2DB45 /* Foundation.framework */; };
+		E3CBE76515D1ECC400F2DB45 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3CBE76415D1ECC400F2DB45 /* CoreGraphics.framework */; };
+		E3CBE76B15D1ECC400F2DB45 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E3CBE76915D1ECC400F2DB45 /* InfoPlist.strings */; };
+		E3CBE76D15D1ECC400F2DB45 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E3CBE76C15D1ECC400F2DB45 /* main.m */; };
+		E3CBE77115D1ECC400F2DB45 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E3CBE77015D1ECC400F2DB45 /* AppDelegate.m */; };
+		E3CBE77415D1ECC400F2DB45 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3CBE77215D1ECC400F2DB45 /* MainStoryboard_iPhone.storyboard */; };
+		E3CBE77715D1ECC400F2DB45 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3CBE77515D1ECC400F2DB45 /* MainStoryboard_iPad.storyboard */; };
+		E3CBE77A15D1ECC400F2DB45 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E3CBE77915D1ECC400F2DB45 /* ViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		10F0520915EEF6F20059435B /* airplane.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = airplane.jpeg; sourceTree = "<group>"; };
+		10F546CA15D2B34700222DEA /* man.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = man.png; sourceTree = "<group>"; };
+		10F546CB15D2B34700222DEA /* woman.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = woman.png; sourceTree = "<group>"; };
+		10F546CC15D2B34700222DEA /* littlegirl.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = littlegirl.jpeg; sourceTree = "<group>"; };
+		10F546D615D2BD6D00222DEA /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		10F546D815D2CDFA00222DEA /* AViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AViewController.h; sourceTree = "<group>"; };
+		10F546D915D2CDFA00222DEA /* AViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AViewController.m; sourceTree = "<group>"; };
+		10F546E615D33AAD00222DEA /* F.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = F.m4a; sourceTree = "<group>"; };
+		10F546E815D33FD000222DEA /* G.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = G.m4a; sourceTree = "<group>"; };
+		10F546EA15D33FE300222DEA /* C.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = C.m4a; sourceTree = "<group>"; };
+		10FB70DD15D4079200B92F5F /* AirPlaneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AirPlaneViewController.h; path = ../AirPlaneViewController.h; sourceTree = "<group>"; };
+		10FB70DE15D4079200B92F5F /* AirPlaneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AirPlaneViewController.m; path = ../AirPlaneViewController.m; sourceTree = "<group>"; };
+		10FB70E015D4113600B92F5F /* oyster.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = oyster.jpeg; sourceTree = "<group>"; };
+		10FB70E215D4123400B92F5F /* fishbackgound.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = fishbackgound.jpeg; sourceTree = "<group>"; };
+		10FB70E415D4147200B92F5F /* water.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = water.jpeg; sourceTree = "<group>"; };
+		10FB70E615D4159600B92F5F /* jungle.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = jungle.jpeg; sourceTree = "<group>"; };
+		10FB70E815D4162300B92F5F /* iguana.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = iguana.jpeg; sourceTree = "<group>"; };
+		10FB70EA15D417A800B92F5F /* iguana.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iguana.png; sourceTree = "<group>"; };
+		10FB70EC15D4188B00B92F5F /* background.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = background.jpeg; sourceTree = "<group>"; };
+		10FB70EE15D4192700B92F5F /* clouds.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = clouds.jpeg; sourceTree = "<group>"; };
+		10FB70F015D41ACC00B92F5F /* rainbow.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = rainbow.jpeg; sourceTree = "<group>"; };
+		10FB70F215D41B3000B92F5F /* forest.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = forest.jpeg; sourceTree = "<group>"; };
+		10FB70F415D41BBD00B92F5F /* unicorn.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = unicorn.jpeg; sourceTree = "<group>"; };
+		10FB70F615D41BDE00B92F5F /* unicornio.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = unicornio.png; sourceTree = "<group>"; };
+		10FB70F815D41E8400B92F5F /* field.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = field.png; sourceTree = "<group>"; };
+		10FB70FA15D41EDB00B92F5F /* elephant.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = elephant.png; sourceTree = "<group>"; };
+		10FB70FC15D4238F00B92F5F /* OViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OViewController.h; sourceTree = "<group>"; };
+		10FB70FD15D4238F00B92F5F /* OViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OViewController.m; sourceTree = "<group>"; };
+		10FB70FF15D4239F00B92F5F /* OysterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OysterViewController.h; sourceTree = "<group>"; };
+		10FB710015D4239F00B92F5F /* OysterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OysterViewController.m; sourceTree = "<group>"; };
+		10FB710215D423B300B92F5F /* IViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IViewController.h; sourceTree = "<group>"; };
+		10FB710315D423B300B92F5F /* IViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IViewController.m; sourceTree = "<group>"; };
+		10FB710515D423C000B92F5F /* IguanaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IguanaViewController.h; sourceTree = "<group>"; };
+		10FB710615D423C000B92F5F /* IguanaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IguanaViewController.m; sourceTree = "<group>"; };
+		10FB710815D423CC00B92F5F /* EViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EViewController.h; sourceTree = "<group>"; };
+		10FB710915D423CC00B92F5F /* EViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EViewController.m; sourceTree = "<group>"; };
+		10FB710B15D423D900B92F5F /* ElephantViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ElephantViewController.h; sourceTree = "<group>"; };
+		10FB710C15D423D900B92F5F /* ElephantViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ElephantViewController.m; sourceTree = "<group>"; };
+		10FB710E15D423EA00B92F5F /* UViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UViewController.h; sourceTree = "<group>"; };
+		10FB710F15D423EA00B92F5F /* UViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UViewController.m; sourceTree = "<group>"; };
+		10FB711115D423F500B92F5F /* UnicornViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UnicornViewController.h; sourceTree = "<group>"; };
+		10FB711215D423F500B92F5F /* UnicornViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UnicornViewController.m; sourceTree = "<group>"; };
+		10FB711515D4361200B92F5F /* aBabyVoice.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = aBabyVoice.mp3; sourceTree = "<group>"; };
+		10FB711615D4361200B92F5F /* aManVoice.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = aManVoice.mp3; sourceTree = "<group>"; };
+		10FB711715D4361200B92F5F /* avionbaby.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = avionbaby.mp3; sourceTree = "<group>"; };
+		10FB711815D4361200B92F5F /* avionman.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = avionman.mp3; sourceTree = "<group>"; };
+		10FB711915D4361200B92F5F /* avionwoman.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = avionwoman.mp3; sourceTree = "<group>"; };
+		10FB711A15D4361200B92F5F /* aWomanVoice.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = aWomanVoice.mp3; sourceTree = "<group>"; };
+		10FB711B15D4361200B92F5F /* eBabyVoice.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = eBabyVoice.mp3; sourceTree = "<group>"; };
+		10FB711C15D4361200B92F5F /* elefantebaby.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = elefantebaby.mp3; sourceTree = "<group>"; };
+		10FB711D15D4361200B92F5F /* elefanteman.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = elefanteman.mp3; sourceTree = "<group>"; };
+		10FB711E15D4361200B92F5F /* elefantewoman.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = elefantewoman.mp3; sourceTree = "<group>"; };
+		10FB711F15D4361200B92F5F /* eManVoice.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = eManVoice.mp3; sourceTree = "<group>"; };
+		10FB712015D4361200B92F5F /* eWomanVoice.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = eWomanVoice.mp3; sourceTree = "<group>"; };
+		10FB712115D4361200B92F5F /* iBabyVoice.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = iBabyVoice.mp3; sourceTree = "<group>"; };
+		10FB712215D4361200B92F5F /* iguanababy.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = iguanababy.mp3; sourceTree = "<group>"; };
+		10FB712315D4361200B92F5F /* iguanaman.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = iguanaman.mp3; sourceTree = "<group>"; };
+		10FB712415D4361200B92F5F /* iguanawoman.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = iguanawoman.mp3; sourceTree = "<group>"; };
+		10FB712515D4361200B92F5F /* iManVoice.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = iManVoice.mp3; sourceTree = "<group>"; };
+		10FB712615D4361200B92F5F /* iWomanVoice.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = iWomanVoice.mp3; sourceTree = "<group>"; };
+		10FB712715D4361200B92F5F /* oBabySound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = oBabySound.mp3; sourceTree = "<group>"; };
+		10FB712815D4361200B92F5F /* oManVoice.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = oManVoice.mp3; sourceTree = "<group>"; };
+		10FB712915D4361200B92F5F /* opening2.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = opening2.mp4; sourceTree = "<group>"; };
+		10FB712A15D4361200B92F5F /* osobaby.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = osobaby.mp3; sourceTree = "<group>"; };
+		10FB712B15D4361200B92F5F /* osoman.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = osoman.mp3; sourceTree = "<group>"; };
+		10FB712C15D4361200B92F5F /* osowoman.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = osowoman.mp3; sourceTree = "<group>"; };
+		10FB712D15D4361200B92F5F /* oWomanVoice.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = oWomanVoice.mp3; sourceTree = "<group>"; };
+		10FB712E15D4361200B92F5F /* uBabyVoice.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = uBabyVoice.mp3; sourceTree = "<group>"; };
+		10FB712F15D4361200B92F5F /* uManVoice.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = uManVoice.mp3; sourceTree = "<group>"; };
+		10FB713015D4361200B92F5F /* unicorniobaby.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = unicorniobaby.mp3; sourceTree = "<group>"; };
+		10FB713115D4361200B92F5F /* unicornioman.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = unicornioman.mp3; sourceTree = "<group>"; };
+		10FB713215D4361200B92F5F /* unicorniowoman.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = unicorniowoman.mp3; sourceTree = "<group>"; };
+		10FB713315D4361200B92F5F /* uWomanVoice.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = uWomanVoice.mp3; sourceTree = "<group>"; };
+		5E92025B15D2127400C78FFA /* Port. launch img.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Port. launch img.png"; sourceTree = "<group>"; };
+		5E92025C15D2127400C78FFA /* Vocal app icon 114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Vocal app icon 114.png"; sourceTree = "<group>"; };
+		5E92026015D212C400C78FFA /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		5E92026215D212CD00C78FFA /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		5E92026415D212EE00C78FFA /* Vocal app icon 114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Vocal app icon 114.png"; sourceTree = "<group>"; };
+		E3CBE75C15D1ECC400F2DB45 /* Vocales.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Vocales.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3CBE76015D1ECC400F2DB45 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E3CBE76215D1ECC400F2DB45 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E3CBE76415D1ECC400F2DB45 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E3CBE76815D1ECC400F2DB45 /* Vocales-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Vocales-Info.plist"; sourceTree = "<group>"; };
+		E3CBE76A15D1ECC400F2DB45 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E3CBE76C15D1ECC400F2DB45 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E3CBE76E15D1ECC400F2DB45 /* Vocales-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Vocales-Prefix.pch"; sourceTree = "<group>"; };
+		E3CBE76F15D1ECC400F2DB45 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E3CBE77015D1ECC400F2DB45 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E3CBE77315D1ECC400F2DB45 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		E3CBE77615D1ECC400F2DB45 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		E3CBE77815D1ECC400F2DB45 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E3CBE77915D1ECC400F2DB45 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E3CBE75915D1ECC400F2DB45 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10F546D715D2BD6D00222DEA /* AVFoundation.framework in Frameworks */,
+				E3CBE76115D1ECC400F2DB45 /* UIKit.framework in Frameworks */,
+				E3CBE76315D1ECC400F2DB45 /* Foundation.framework in Frameworks */,
+				E3CBE76515D1ECC400F2DB45 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		10FB711415D435FC00B92F5F /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				10FB711515D4361200B92F5F /* aBabyVoice.mp3 */,
+				10FB711615D4361200B92F5F /* aManVoice.mp3 */,
+				10FB711715D4361200B92F5F /* avionbaby.mp3 */,
+				10FB711815D4361200B92F5F /* avionman.mp3 */,
+				10FB711915D4361200B92F5F /* avionwoman.mp3 */,
+				10FB711A15D4361200B92F5F /* aWomanVoice.mp3 */,
+				10FB711B15D4361200B92F5F /* eBabyVoice.mp3 */,
+				10FB711C15D4361200B92F5F /* elefantebaby.mp3 */,
+				10FB711D15D4361200B92F5F /* elefanteman.mp3 */,
+				10FB711E15D4361200B92F5F /* elefantewoman.mp3 */,
+				10FB711F15D4361200B92F5F /* eManVoice.mp3 */,
+				10FB712015D4361200B92F5F /* eWomanVoice.mp3 */,
+				10FB712115D4361200B92F5F /* iBabyVoice.mp3 */,
+				10FB712215D4361200B92F5F /* iguanababy.mp3 */,
+				10FB712315D4361200B92F5F /* iguanaman.mp3 */,
+				10FB712415D4361200B92F5F /* iguanawoman.mp3 */,
+				10FB712515D4361200B92F5F /* iManVoice.mp3 */,
+				10FB712615D4361200B92F5F /* iWomanVoice.mp3 */,
+				10FB712715D4361200B92F5F /* oBabySound.mp3 */,
+				10FB712815D4361200B92F5F /* oManVoice.mp3 */,
+				10FB712915D4361200B92F5F /* opening2.mp4 */,
+				10FB712A15D4361200B92F5F /* osobaby.mp3 */,
+				10FB712B15D4361200B92F5F /* osoman.mp3 */,
+				10FB712C15D4361200B92F5F /* osowoman.mp3 */,
+				10FB712D15D4361200B92F5F /* oWomanVoice.mp3 */,
+				10FB712E15D4361200B92F5F /* uBabyVoice.mp3 */,
+				10FB712F15D4361200B92F5F /* uManVoice.mp3 */,
+				10FB713015D4361200B92F5F /* unicorniobaby.mp3 */,
+				10FB713115D4361200B92F5F /* unicornioman.mp3 */,
+				10FB713215D4361200B92F5F /* unicorniowoman.mp3 */,
+				10FB713315D4361200B92F5F /* uWomanVoice.mp3 */,
+			);
+			name = Sounds;
+			sourceTree = "<group>";
+		};
+		E3CBE75115D1ECC400F2DB45 = {
+			isa = PBXGroup;
+			children = (
+				10F546D615D2BD6D00222DEA /* AVFoundation.framework */,
+				5E92026415D212EE00C78FFA /* Vocal app icon 114.png */,
+				5E92026215D212CD00C78FFA /* Default.png */,
+				5E92026015D212C400C78FFA /* Default@2x.png */,
+				E3CBE76615D1ECC400F2DB45 /* Vocales */,
+				E3CBE75F15D1ECC400F2DB45 /* Frameworks */,
+				E3CBE75D15D1ECC400F2DB45 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E3CBE75D15D1ECC400F2DB45 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E3CBE75C15D1ECC400F2DB45 /* Vocales.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E3CBE75F15D1ECC400F2DB45 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E3CBE76015D1ECC400F2DB45 /* UIKit.framework */,
+				E3CBE76215D1ECC400F2DB45 /* Foundation.framework */,
+				E3CBE76415D1ECC400F2DB45 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E3CBE76615D1ECC400F2DB45 /* Vocales */ = {
+			isa = PBXGroup;
+			children = (
+				E3CBE76F15D1ECC400F2DB45 /* AppDelegate.h */,
+				E3CBE77015D1ECC400F2DB45 /* AppDelegate.m */,
+				E3CBE77215D1ECC400F2DB45 /* MainStoryboard_iPhone.storyboard */,
+				10FB70FC15D4238F00B92F5F /* OViewController.h */,
+				10FB70FD15D4238F00B92F5F /* OViewController.m */,
+				10FB70FF15D4239F00B92F5F /* OysterViewController.h */,
+				10FB710015D4239F00B92F5F /* OysterViewController.m */,
+				10FB710215D423B300B92F5F /* IViewController.h */,
+				10FB710315D423B300B92F5F /* IViewController.m */,
+				10FB710515D423C000B92F5F /* IguanaViewController.h */,
+				10FB710615D423C000B92F5F /* IguanaViewController.m */,
+				10FB710815D423CC00B92F5F /* EViewController.h */,
+				10FB710915D423CC00B92F5F /* EViewController.m */,
+				10FB710B15D423D900B92F5F /* ElephantViewController.h */,
+				10FB710C15D423D900B92F5F /* ElephantViewController.m */,
+				10FB710E15D423EA00B92F5F /* UViewController.h */,
+				10FB710F15D423EA00B92F5F /* UViewController.m */,
+				10FB711115D423F500B92F5F /* UnicornViewController.h */,
+				10FB711215D423F500B92F5F /* UnicornViewController.m */,
+				10F546D815D2CDFA00222DEA /* AViewController.h */,
+				10F546D915D2CDFA00222DEA /* AViewController.m */,
+				10FB70DD15D4079200B92F5F /* AirPlaneViewController.h */,
+				10FB70DE15D4079200B92F5F /* AirPlaneViewController.m */,
+				E3CBE77515D1ECC400F2DB45 /* MainStoryboard_iPad.storyboard */,
+				E3CBE77815D1ECC400F2DB45 /* ViewController.h */,
+				E3CBE77915D1ECC400F2DB45 /* ViewController.m */,
+				5E92025B15D2127400C78FFA /* Port. launch img.png */,
+				10FB711415D435FC00B92F5F /* Sounds */,
+				5E92025C15D2127400C78FFA /* Vocal app icon 114.png */,
+				10F546CA15D2B34700222DEA /* man.png */,
+				10F546CB15D2B34700222DEA /* woman.png */,
+				10FB70E015D4113600B92F5F /* oyster.jpeg */,
+				10FB70E415D4147200B92F5F /* water.jpeg */,
+				10FB70F815D41E8400B92F5F /* field.png */,
+				10FB70F215D41B3000B92F5F /* forest.jpeg */,
+				10FB70E215D4123400B92F5F /* fishbackgound.jpeg */,
+				10FB70FA15D41EDB00B92F5F /* elephant.png */,
+				10FB70F015D41ACC00B92F5F /* rainbow.jpeg */,
+				10FB70E615D4159600B92F5F /* jungle.jpeg */,
+				10FB70EE15D4192700B92F5F /* clouds.jpeg */,
+				10FB70F615D41BDE00B92F5F /* unicornio.png */,
+				10FB70E815D4162300B92F5F /* iguana.jpeg */,
+				10FB70F415D41BBD00B92F5F /* unicorn.jpeg */,
+				10FB70EA15D417A800B92F5F /* iguana.png */,
+				10FB70EC15D4188B00B92F5F /* background.jpeg */,
+				10F546CC15D2B34700222DEA /* littlegirl.jpeg */,
+				10F0520915EEF6F20059435B /* airplane.jpeg */,
+				10F546E615D33AAD00222DEA /* F.m4a */,
+				10F546E815D33FD000222DEA /* G.m4a */,
+				10F546EA15D33FE300222DEA /* C.m4a */,
+				E3CBE76715D1ECC400F2DB45 /* Supporting Files */,
+			);
+			path = Vocales;
+			sourceTree = "<group>";
+		};
+		E3CBE76715D1ECC400F2DB45 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E3CBE76815D1ECC400F2DB45 /* Vocales-Info.plist */,
+				E3CBE76915D1ECC400F2DB45 /* InfoPlist.strings */,
+				E3CBE76C15D1ECC400F2DB45 /* main.m */,
+				E3CBE76E15D1ECC400F2DB45 /* Vocales-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E3CBE75B15D1ECC400F2DB45 /* Vocales */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E3CBE77D15D1ECC400F2DB45 /* Build configuration list for PBXNativeTarget "Vocales" */;
+			buildPhases = (
+				E3CBE75815D1ECC400F2DB45 /* Sources */,
+				E3CBE75915D1ECC400F2DB45 /* Frameworks */,
+				E3CBE75A15D1ECC400F2DB45 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Vocales;
+			productName = Vocales;
+			productReference = E3CBE75C15D1ECC400F2DB45 /* Vocales.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E3CBE75315D1ECC400F2DB45 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "AEIOU Inc.";
+			};
+			buildConfigurationList = E3CBE75615D1ECC400F2DB45 /* Build configuration list for PBXProject "Vocales" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E3CBE75115D1ECC400F2DB45;
+			productRefGroup = E3CBE75D15D1ECC400F2DB45 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E3CBE75B15D1ECC400F2DB45 /* Vocales */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E3CBE75A15D1ECC400F2DB45 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3CBE76B15D1ECC400F2DB45 /* InfoPlist.strings in Resources */,
+				E3CBE77415D1ECC400F2DB45 /* MainStoryboard_iPhone.storyboard in Resources */,
+				E3CBE77715D1ECC400F2DB45 /* MainStoryboard_iPad.storyboard in Resources */,
+				5E92025D15D2127400C78FFA /* Port. launch img.png in Resources */,
+				5E92025E15D2127400C78FFA /* Vocal app icon 114.png in Resources */,
+				5E92026115D212C400C78FFA /* Default@2x.png in Resources */,
+				5E92026515D212EE00C78FFA /* Vocal app icon 114.png in Resources */,
+				10F546CD15D2B34700222DEA /* man.png in Resources */,
+				10F546CE15D2B34700222DEA /* woman.png in Resources */,
+				10F546CF15D2B34700222DEA /* littlegirl.jpeg in Resources */,
+				10F546E715D33AAD00222DEA /* F.m4a in Resources */,
+				10F546E915D33FD000222DEA /* G.m4a in Resources */,
+				10F546EB15D33FE300222DEA /* C.m4a in Resources */,
+				10FB70E115D4113600B92F5F /* oyster.jpeg in Resources */,
+				10FB70E315D4123400B92F5F /* fishbackgound.jpeg in Resources */,
+				10FB70E515D4147200B92F5F /* water.jpeg in Resources */,
+				10FB70E715D4159600B92F5F /* jungle.jpeg in Resources */,
+				10FB70E915D4162300B92F5F /* iguana.jpeg in Resources */,
+				10FB70EB15D417A800B92F5F /* iguana.png in Resources */,
+				10FB70ED15D4188B00B92F5F /* background.jpeg in Resources */,
+				10FB70EF15D4192700B92F5F /* clouds.jpeg in Resources */,
+				10FB70F115D41ACC00B92F5F /* rainbow.jpeg in Resources */,
+				10FB70F315D41B3000B92F5F /* forest.jpeg in Resources */,
+				10FB70F515D41BBD00B92F5F /* unicorn.jpeg in Resources */,
+				10FB70F715D41BDE00B92F5F /* unicornio.png in Resources */,
+				10FB70F915D41E8400B92F5F /* field.png in Resources */,
+				10FB70FB15D41EDB00B92F5F /* elephant.png in Resources */,
+				10FB713415D4361200B92F5F /* aBabyVoice.mp3 in Resources */,
+				10FB713515D4361200B92F5F /* aManVoice.mp3 in Resources */,
+				10FB713615D4361200B92F5F /* avionbaby.mp3 in Resources */,
+				10FB713715D4361200B92F5F /* avionman.mp3 in Resources */,
+				10FB713815D4361200B92F5F /* avionwoman.mp3 in Resources */,
+				10FB713915D4361200B92F5F /* aWomanVoice.mp3 in Resources */,
+				10FB713A15D4361200B92F5F /* eBabyVoice.mp3 in Resources */,
+				10FB713B15D4361200B92F5F /* elefantebaby.mp3 in Resources */,
+				10FB713C15D4361200B92F5F /* elefanteman.mp3 in Resources */,
+				10FB713D15D4361200B92F5F /* elefantewoman.mp3 in Resources */,
+				10FB713E15D4361200B92F5F /* eManVoice.mp3 in Resources */,
+				10FB713F15D4361200B92F5F /* eWomanVoice.mp3 in Resources */,
+				10FB714015D4361200B92F5F /* iBabyVoice.mp3 in Resources */,
+				10FB714115D4361200B92F5F /* iguanababy.mp3 in Resources */,
+				10FB714215D4361200B92F5F /* iguanaman.mp3 in Resources */,
+				10FB714315D4361200B92F5F /* iguanawoman.mp3 in Resources */,
+				10FB714415D4361200B92F5F /* iManVoice.mp3 in Resources */,
+				10FB714515D4361200B92F5F /* iWomanVoice.mp3 in Resources */,
+				10FB714615D4361200B92F5F /* oBabySound.mp3 in Resources */,
+				10FB714715D4361200B92F5F /* oManVoice.mp3 in Resources */,
+				10FB714815D4361200B92F5F /* opening2.mp4 in Resources */,
+				10FB714915D4361200B92F5F /* osobaby.mp3 in Resources */,
+				10FB714A15D4361200B92F5F /* osoman.mp3 in Resources */,
+				10FB714B15D4361200B92F5F /* osowoman.mp3 in Resources */,
+				10FB714C15D4361200B92F5F /* oWomanVoice.mp3 in Resources */,
+				10FB714D15D4361200B92F5F /* uBabyVoice.mp3 in Resources */,
+				10FB714E15D4361200B92F5F /* uManVoice.mp3 in Resources */,
+				10FB714F15D4361200B92F5F /* unicorniobaby.mp3 in Resources */,
+				10FB715015D4361200B92F5F /* unicornioman.mp3 in Resources */,
+				10FB715115D4361200B92F5F /* unicorniowoman.mp3 in Resources */,
+				10FB715215D4361200B92F5F /* uWomanVoice.mp3 in Resources */,
+				10F0520A15EEF6F20059435B /* airplane.jpeg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E3CBE75815D1ECC400F2DB45 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3CBE76D15D1ECC400F2DB45 /* main.m in Sources */,
+				E3CBE77115D1ECC400F2DB45 /* AppDelegate.m in Sources */,
+				E3CBE77A15D1ECC400F2DB45 /* ViewController.m in Sources */,
+				10F546DA15D2CDFA00222DEA /* AViewController.m in Sources */,
+				10FB70DF15D4079200B92F5F /* AirPlaneViewController.m in Sources */,
+				10FB70FE15D4238F00B92F5F /* OViewController.m in Sources */,
+				10FB710115D4239F00B92F5F /* OysterViewController.m in Sources */,
+				10FB710415D423B300B92F5F /* IViewController.m in Sources */,
+				10FB710715D423C000B92F5F /* IguanaViewController.m in Sources */,
+				10FB710A15D423CC00B92F5F /* EViewController.m in Sources */,
+				10FB710D15D423D900B92F5F /* ElephantViewController.m in Sources */,
+				10FB711015D423EA00B92F5F /* UViewController.m in Sources */,
+				10FB711315D423F500B92F5F /* UnicornViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E3CBE76915D1ECC400F2DB45 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E3CBE76A15D1ECC400F2DB45 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E3CBE77215D1ECC400F2DB45 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E3CBE77315D1ECC400F2DB45 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		E3CBE77515D1ECC400F2DB45 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E3CBE77615D1ECC400F2DB45 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E3CBE77B15D1ECC400F2DB45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E3CBE77C15D1ECC400F2DB45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E3CBE77E15D1ECC400F2DB45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Vocales/Vocales-Prefix.pch";
+				INFOPLIST_FILE = "Vocales/Vocales-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E3CBE77F15D1ECC400F2DB45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Vocales/Vocales-Prefix.pch";
+				INFOPLIST_FILE = "Vocales/Vocales-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E3CBE75615D1ECC400F2DB45 /* Build configuration list for PBXProject "Vocales" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E3CBE77B15D1ECC400F2DB45 /* Debug */,
+				E3CBE77C15D1ECC400F2DB45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E3CBE77D15D1ECC400F2DB45 /* Build configuration list for PBXNativeTarget "Vocales" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E3CBE77E15D1ECC400F2DB45 /* Debug */,
+				E3CBE77F15D1ECC400F2DB45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E3CBE75315D1ECC400F2DB45 /* Project object */;
+}
